@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet" />
+  <style>
+    header {
+      text-align: center;
+      background: url("https://www.hollywoodreporter.com/wp-content/uploads/2021/10/%E2%80%98MILLION-DOLLAZ-WORTH-OF-GAME-AND-HOSTS-WALLO267-AND-GILLIE-DA-KING-by-Phil-Meyer-Publicity-H-2021.jpg");
+      background-size: cover;
+      color: black;
+      font-family: Arial;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 320px 0px;
+      border: 7px solid white;
+      border-radius: -px;
+      padding: 0;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 12px;
+        padding: 5px;
+        color: green;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="" />
+    <h1>Wallo & Gillie</h1>
+    <ul>
+      <li><a href="#">Episodes</a></li>
+      <li><a href="#">Merchandise</a></li>
+      <li><a href="#">Live Shows</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Recap Episode</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/jr8LCn4ey0w"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <!--<button>Like</button>-->
+  </article>
+  <article>
+    <h2>Suge Episode</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Uj2s359bt14"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </article>
+  <article>
+    <h2>Berner Episode</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/7PcaisMw-HA"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <!--<button>Like</button>-->
+  </article>
+  <script>
+    $("button").on("click", function () {
+      alert("Clicked!");
+    });
+  </script>
+</body>
